@@ -1,7 +1,8 @@
 import { Button, Select, TextInput } from 'flowbite-react';
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import PostCard from '../components/PostCard';
+import programmingLanguages from '../data/language';
 
 export default function Search() {
   const [sidebarData, setSidebarData] = useState({
@@ -130,10 +131,17 @@ export default function Search() {
               value={sidebarData.category}
               id='category'
             >
-              <option value='uncategorized'>Uncategorized</option>
-              <option value='reactjs'>React.js</option>
-              <option value='nextjs'>Next.js</option>
-              <option value='javascript'>JavaScript</option>
+    
+
+              <option selected value='uncategorized'>Uncategorized</option>
+              {
+                programmingLanguages && programmingLanguages.map((name, i)=>(
+                  <Fragment key={i}>
+                  <option value={name.name}>{name.name}</option>
+                  
+                  </Fragment>
+                ))
+              }
             </Select>
           </div>
           <Button type='submit' outline gradientDuoTone='purpleToPink'>
