@@ -2,8 +2,8 @@
 
 Welcome to the Full-Stack Blog Platform project! 🌟 
 
-- **Comprehensive Blogging Features**: Create accounts, publish blogs, and comment on posts with a fully integrated commenting system. ✍️💬
-- **Admin Oversight**: Manage and moderate user-generated content with dedicated admin tools and permissions. 🛠️🛡️
+- ** Blogging Features**: Create accounts, publish blogs, and comment on posts with a fully integrated commenting system. ✍️💬
+- **Admin Feature**: Manage and moderate user-generated content with dedicated admin tools and permissions. 🛠️🛡️
 - **Secure Authentication**: Includes robust user authentication and role-based access control for enhanced security. 🔐
 
 
@@ -16,25 +16,28 @@ Welcome to the Full-Stack Blog Platform project! 🌟
 - **Admin Content Management** 🛠️: Admins have tools to oversee, manage, and moderate user-generated content.
 - **Secure User Roles and Permissions** 🛡️: Differentiates between regular users, authorized commenters, and admins.
 
-## Technologies Used
 
-- **Frontend**: [List any front-end frameworks/libraries you used, e.g., React, Vue.js]
-- **Backend**: [List your back-end technologies, e.g., Node.js, Express]
-- **Database**: [Specify the database technology, e.g., MongoDB, PostgreSQL]
-- **Authentication**: [Mention any authentication methods or libraries, e.g., JWT, OAuth]
 
 ## Installation
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repository.git
-    cd your-repository
+    git clone https://github.com/mahendrameghwal/blogs.git
+    cd blogs
     ```
 
 2. **Install dependencies:**
     ```bash
     npm install
     ```
+2. ** For client NPM install:**
+      ```bash
+    cd client 
+    ```
+  ```bash
+    npm install 
+    ```
+ 
 
 3. **Set up environment variables:**
     Create a `.env` file in the root directory and add the following:
@@ -53,14 +56,14 @@ Welcome to the Full-Stack Blog Platform project! 🌟
 - **User Registration** 🧑‍💻: Go to `/register` to sign up for a new account.
 - **Blog Posting** 🖋️: Visit `/create` to write and publish your blog posts.
 - **Commenting** 💭: Leave comments on blog posts directly from the post page.
-- **Admin Dashboard** 📊: Access the admin dashboard at `/admin` for content management and moderation.
+- **Admin Dashboard** 📊: Access the admin dashboard at `/dashboard` for content management and moderation.
 
 ## Screenshots
 
 Here are some screenshots of the application in action:
 
 1. **Homepage**:
-   ![Homepage](path-to-homepage-screenshot.png)
+   ![Homepage](https://drive.google.com/file/d/1rBvdGHYit8rgRFbqPMDRVxbCwnJiMFNn/preview)
 
 2. **Blog Post Creation**:
    ![Blog Post Creation](path-to-blog-post-creation-screenshot.png)
