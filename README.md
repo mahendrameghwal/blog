@@ -60,6 +60,14 @@ Here are some screenshots of the application in action:
 
 3. **Admin Dashboard**:
    Admin Dashboard
+   
+3. **For Testing app**:
+    ```bash
+    email : blogger1@gmail.com
+    password : blogger1@gmail.com
+    ```
+
+   
 
 ## Security
 
