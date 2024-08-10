@@ -53,16 +53,13 @@ Welcome to the Full-Stack Blog Platform project! 🌟
 Here are some screenshots of the application in action:
 
 1. **Homepage**:
- <img src=" https://i.imgur.com/GY6XJEO.png" alt="Homepage" style="width: 100%; max-width: 600px;">
-
-
-
-
-2. **Blog Post Creation**:
-<img src="https://i.imgur.com/qsnv4ti.png" alt="Blog Post Creation" style="width: 100%; max-width: 600px;">
-
-3. **Admin Dashboard**:
+ <img src="https://i.imgur.com/GY6XJEO.png" alt="Homepage" style="width: 100%; max-width: 600px;">
+ 
+2. **Admin Dashboard**:
 <img src="https://i.imgur.com/FQWKk0Q.png" alt="Admin Dashboard" style="width: 100%; max-width: 600px;">
+
+3. **Blog Post Creation**:
+<img src="https://i.imgur.com/qsnv4ti.png" alt="Blog Post Creation" style="width: 100%; max-width: 600px;">
 
 4. **Search Post**:
 <img src="https://i.imgur.com/lgp7TsG.png" alt="Admin Dashboard" style="width: 100%; max-width: 600px;">
